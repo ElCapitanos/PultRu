@@ -1,0 +1,23 @@
+.carousel__item {
+    display:flex;
+    flex-direction: column;
+    width:410px;
+    border:solid 1px transparent;
+    box-sizing: border-box;
+    line-height: 50px;
+    justify-content: center;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__item {
+        width:270px;
+}
+}
+
+@media screen and (max-width:590px) {
+    .carousel__item {
+        width:300px;
+        margin: 0.5em auto;
+    }
+
+}

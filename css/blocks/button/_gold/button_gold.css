@@ -1,0 +1,10 @@
+.button_gold {
+    background-color: #A89365;
+    border-color: transparent;
+}
+
+.button_gold:hover {
+    background-color: white;
+    border-color: #A89365;
+    color:#A89365;
+}

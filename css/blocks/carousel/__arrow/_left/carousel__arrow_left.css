@@ -1,0 +1,4 @@
+.carousel__arrow_left {
+    left:-1.2em;
+    transform: rotate(45deg);
+}

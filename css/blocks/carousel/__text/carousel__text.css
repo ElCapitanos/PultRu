@@ -1,0 +1,26 @@
+.carousel__text {
+    display:flex;
+    font-size:20px;
+    line-height: 30px;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__text {
+        font-size:16px;
+        line-height: 24px;
+        margin-top:20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .carousel__text {
+        margin-top:12px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .carousel__text {
+        margin-top:8px;
+    }
+}

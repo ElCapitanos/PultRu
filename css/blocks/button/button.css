@@ -1,0 +1,29 @@
+@import './_gold/button_gold.css';
+@import './_white/button_white.css';
+
+.button {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    width:360px;
+    height: 60px;
+    line-height: 60px;
+    border:1px solid;
+    box-sizing: border-box;
+    transition: 0.6s linear;
+}
+
+@media screen and (max-width:1830px) {
+    .button {
+        width:300px;
+        height: 45px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .button {
+        width:100%;
+        margin-bottom: 1em;
+    }
+}

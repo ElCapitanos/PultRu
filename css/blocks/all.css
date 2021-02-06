@@ -1,0 +1,76 @@
+@font-face {
+    font-family:"FuturaPT-Bold";
+    src: url("../../fonts/FuturaPT-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family:"FuturaPT-Book";
+    src: url("../../fonts/FuturaPT-Book.woff") format("woff");
+}
+
+@font-face {
+    font-family:"FuturaPT-Light";
+    src: url("../../fonts/FuturaPT-Light.woff") format("woff");
+} 
+
+@font-face {
+    font-family:"FuturaPT-MediumObl";
+    src: url("../../fonts/FuturaPT-MediumObl.woff") format("woff");
+}  
+
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin:0;
+} 
+
+a {
+    padding:0;
+    margin: 0;
+}
+
+html {
+    margin: auto;
+    max-width:1920px;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    margin: auto;
+    font-family: 'FuturaPT-Light', 'Sans-Pro', sans-serif;
+    border:solid 1px transparent;
+    box-sizing: border-box;
+}
+
+.gold {
+    color:#A89365;
+}
+
+.black {
+    color:#000000;
+}
+
+.white {
+    color:#ffffff;
+}
+
+.grey {
+    color:#575757;
+}
+
+.link {
+    text-decoration: none;
+    transition: 0.8s linear;
+}
+
+.link:hover {
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 999px) {
+
+    }
+
+    

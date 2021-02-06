@@ -1,0 +1,10 @@
+.carousel__arrow_right {
+    right:-.2em;
+    transform: rotate(-135deg);
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__arrow_right {
+        right:0.6em;
+}
+}

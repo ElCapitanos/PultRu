@@ -1,0 +1,16 @@
+@import './_left/carousel__arrow_left.css';
+@import './_right/carousel__arrow_right.css';
+
+.carousel__arrow {
+    font-size: 40px;
+    font-weight: 800;
+    position:absolute;
+    top:6.2em;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__arrow {
+        font-size: 22px;
+        top:8.5em;
+}
+}

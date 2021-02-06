@@ -1,0 +1,33 @@
+.carousel__main {
+    display:flex;
+    position: relative;
+    width:94%;
+    margin:3em auto 0 6.5em;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__main {
+        width:97.2%;
+        margin:3.2em auto .5em 3.1em;
+}
+}
+
+@media screen and (max-width:700px) {
+    .carousel__main {
+        width:97.2%;
+        margin:1.2em auto .5em 1.6em;
+}
+}
+
+@media screen and (max-width:700px) {
+    .carousel__main {
+        width:97.2%;
+        margin:1.2em auto .5em 1.6em;
+}
+}
+
+@media screen and (max-width:590px) {
+    .carousel__main {
+        margin-left:0;
+    }
+}

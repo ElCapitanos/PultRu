@@ -1,0 +1,21 @@
+.carousel__head {
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:91.7%;
+    margin: auto;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__head {
+        width:93.5%;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .carousel__head {
+        flex-direction: column;
+        text-align: left;
+    }
+}

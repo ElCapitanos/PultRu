@@ -1,0 +1,19 @@
+.carousel__title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'FuturaPT-Bold';
+    margin-top:-0.1em;
+    letter-spacing: 0.7px;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__title {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .carousel__title {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,15 @@
+@import './__item/carousel__item.css';
+@import './__arrow/carousel__arrow.css';
+@import './__main/carousel__main.css';
+@import './__head/carousel__head.css';
+@import './__title/carousel__title.css';
+@import './__link/carousel__link.css';
+@import './__subtitle/carousel__subtitle.css';
+@import './__text/carousel__text.css';
+@import './__pict/carousel__pict.css';
+
+.carousel {
+    display:flex;
+    flex-direction: column;
+    letter-spacing: 0.2px;
+}

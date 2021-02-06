@@ -1,0 +1,19 @@
+.carousel__link {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 1.4em .2em auto auto;
+    letter-spacing: -0.15px;
+    cursor:pointer;
+}
+
+@media screen and (max-width:1830px) {
+    .carousel__link {
+        margin-top:0.5em;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .carousel__link {
+        margin-left: 0;
+    }
+}
